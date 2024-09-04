@@ -1,5 +1,3 @@
-Here's a merged, expanded, and organized list of basic Linux commands. Redundant commands have been removed, additional options have been included, and formatting has been improved.
-
 ### Basic Linux Commands
 
 - **`ls`**: List directory contents.
@@ -181,4 +179,3 @@ Here's a merged, expanded, and organized list of basic Linux commands. Redundant
   - Example: `sudo shutdown now` (immediately shuts down the system)
   - Example: `sudo shutdown -r now` (reboots the system)
 
-This list contains commands for managing files, processes, system information, and networking, organized for easier reference.
