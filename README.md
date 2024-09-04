@@ -39,6 +39,22 @@ Here’s a quick refresher on some of the most common commands:
 - **`ps`**: Display currently running processes.
 - **`top`**: Display real-time system information.
 - **`man`**: Show the manual for a command.
+- **`touch`**: Creates an empty file or updates the timestamp of an existing file.
+- **`cat`**: Concatenates and displays the content of a file.
+- **`more`/`less`**: Displays the content of a file one screen at a time.
+- **`head`**: Displays the first 10 lines of a file.
+- **`tail`**: Displays the last 10 lines of a file.
+- **`find`**: Searches for files and directories within a directory.
+- **`locate`**: Searches for files by name in the system’s file database.
+- **`help`**: Displays available options and usage details for a command
+- **`hostname`**: Displays the name of the host or the Linux distribution.
+- **`whoami`**: Shows the currently logged-in user.
+- **`clear`**: Clears the terminal screen.
+- **`su "username"`**: Switches to another user account.
+- **`history`**: Displays a list of previously entered commands.
+- **`stat "file_name"`**: Displays detailed information (timestamp, size, etc.) about a file.
+
+
 
 ### **File System Structure**
 
