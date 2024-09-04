@@ -24,36 +24,41 @@ Linux comes in many flavors, or distributions, each tailored to different needs:
 
 ### **Basic Linux Commands**
 
-Here’s a quick refresher on some of the most common commands:
+Quick refresher on common commands:
 
-- **`ls`**: List directory contents.
-- **`cd`**: Change the directory.
-- **`pwd`**: Print working directory.
-- **`cp`**: Copy files and directories.
-- **`mv`**: Move or rename files and directories.
-- **`rm`**: Remove files or directories.
-- **`mkdir`**: Create a new directory.
-- **`rmdir`**: Remove an empty directory.
-- **`chmod`**: Change file permissions.
-- **`chown`**: Change file ownership.
-- **`ps`**: Display currently running processes.
-- **`top`**: Display real-time system information.
-- **`man`**: Show the manual for a command.
-- **`touch`**: Creates an empty file or updates the timestamp of an existing file.
-- **`cat`**: Concatenates and displays the content of a file.
-- **`more`/`less`**: Displays the content of a file one screen at a time.
-- **`head`**: Displays the first 10 lines of a file.
-- **`tail`**: Displays the last 10 lines of a file.
-- **`find`**: Searches for files and directories within a directory.
-- **`locate`**: Searches for files by name in the system’s file database.
-- **`help`**: Displays available options and usage details for a command
-- **`hostname`**: Displays the name of the host or the Linux distribution.
-- **`whoami`**: Shows the currently logged-in user.
-- **`clear`**: Clears the terminal screen.
-- **`su "username"`**: Switches to another user account.
-- **`history`**: Displays a list of previously entered commands.
-- **`stat "file_name"`**: Displays detailed information (timestamp, size, etc.) about a file.
-
+- `ls`: List directory contents.
+- `cd`: Change the directory.
+- `pwd`: Print working directory.
+- `cp`: Copy files and directories.
+- `mv`: Move or rename files and directories.
+- `rm`: Remove files or directories.
+- `mkdir`: Create a new directory.
+- `rmdir`: Remove an empty directory.
+- `chmod`: Change file permissions.
+- `chown`: Change file ownership.
+- `ps`: Display currently running processes.
+- `ps -auf`: Display all running processes with user details and more information.
+- `top`: Display real-time system information.
+- `man`: Show the manual for a command.
+- `touch`: Create an empty file or update the timestamp of an existing file.
+- `cat`: Concatenate and display the content of a file.
+- `cat /etc/os-release`: Display details about the installed Linux distribution.
+- `more/less`: Display the content of a file one screen at a time.
+- `head`: Display the first 10 lines of a file.
+- `tail`: Display the last 10 lines of a file.
+- `find`: Search for files and directories within a directory.
+- `locate`: Search for files by name in the system’s file database.
+- `help`: Display available options and usage details for a command.
+- `hostname`: Display the name of the host or the Linux distribution.
+- `hostname -i`: Display the Internal IP address of the host.
+- `uname -a`: Display all system information (kernel name, version, etc.).
+- `whoami`: Show the currently logged-in user.
+- `clear`: Clear the terminal screen.
+- `su "username"`: Switch to another user account.
+- `history`: Display a list of previously entered commands.
+- `stat "file_name"`: Display detailed information (timestamp, size, etc.) about a file.
+- `ifconfig.me`: Display the public IP address of the machine.
+- `ssh-keygen`: Generate SSH keys. For sharing public key
 
 
 ### **File System Structure**
