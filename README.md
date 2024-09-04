@@ -57,7 +57,7 @@ Quick refresher on common commands:
 - `su "username"`: Switch to another user account.
 - `history`: Display a list of previously entered commands.
 - `stat "file_name"`: Display detailed information (timestamp, size, etc.) about a file.
-- `ifconfig.me`: Display the public IP address of the machine.
+- `curl ifconfig.me`: Display the public IP address of the machine.
 - `ssh-keygen`: Generate SSH keys. For sharing public key
 
 
