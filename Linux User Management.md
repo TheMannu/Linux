@@ -193,9 +193,9 @@ Managing users, groups, and permissions in Linux is essential for maintaining sy
 
 | Command        | Description                                       |
 |----------------|---------------------------------------------------|
-| `adduser`      | Adds a new user with a home directory.             |
+| `adduser`      | Adds a new user with a home directory.            |
 | `deluser`      | Deletes a user account.                           |
-| `usermod`      | Modifies user account properties (e.g., group).    |
+| `usermod`      | Modifies user account properties (e.g., group).   |
 | `passwd`       | Changes or expires a user's password.             |
 | `groupadd`     | Creates a new group.                              |
 | `gpasswd`      | Manages group membership.                         |
@@ -209,4 +209,4 @@ Managing users, groups, and permissions in Linux is essential for maintaining sy
 
 ---
 
-This comprehensive guide covers all essential aspects of user and group management in Linux, including commands for managing users, groups, privileges, and monitoring system usage effectively.
+Linux commands for managing users, groups, privileges, and monitoring system usage effectively
