@@ -40,8 +40,9 @@
   - Example: `chown -R user:group dir` (recursively changes ownership of directory dir)
 
 - **`ps`**: Display currently running processes.
-  - Example: `ps` (lists processes running in the current shell)
-  - Example: `ps aux` (lists all processes for all users)
+  - Example: `ps` Displays processes running in the current shell (session).
+  - Example: `ps aux` (Lists all processes for all users on the system, regardless of terminal or session.)
+  - Example: `ps auf` (Lists processes with a full-format listing and hierarchical relationships (parent-child processes). It shows all processes attached to terminals.)
 
 - **`top`**: Display real-time system information.
   - Example: `top` (shows a dynamic real-time view of system processes)
@@ -99,7 +100,7 @@
 
 - **`hostname`**: Displays the name of the host or the Linux distribution.
   - Example: `hostname` (shows the hostname of the system)
-  - Example: `hostname -i` (shows the IP address associated with the hostname)
+  - Example: `hostname -i` (shows the Private IP(Internal IP) address associated with the hostname)
 
 - **`whoami`**: Shows the currently logged-in user.
   - Example: `whoami` (prints the current user name)
@@ -122,11 +123,12 @@
   - Example: `stat file` (shows detailed information about file)
 
 - **`curl`**: Transfer data from or to a server using various protocols.
-  - Example: `curl ifconfig.me` (shows the public IP address)
+  - Example: `curl ifconfig.me` (shows the Public IP (External IP) address)
   - Example: `curl -O https://example.com/file` (downloads file from URL)
 
 - **`wget`**: Download files from the web.
   - Example: `wget https://example.com/file` (downloads file from URL)
+  - Example: `wget --mirror --convert-link --wait=2 <url>` (Download the complete website with all the landing pages will all the data and css file also).
 
 - **`scp`**: Securely copy files between hosts over SSH.
   - Example: `scp file user@host:/path/to/destination` (copies file to remote host)
@@ -135,7 +137,7 @@
   - Example: `ssh user@host` (connects to the remote host as user)
 
 - **`uname`**: Show system information.
-  - Example: `uname` (shows system name)
+  - Example: `uname` (shows system O S name)
   - Example: `uname -a` (shows all available system information)
 
 - **`free`**: Displays memory usage.
