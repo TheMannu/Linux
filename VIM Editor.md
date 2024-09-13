@@ -160,3 +160,31 @@ VI operates in two primary modes:
    - Use `p` to paste the copied line.
 
 ---
+## Practice Commands
+
+1. **Open a file in VI**:
+   ```bash
+   vi myfile.txt
+   ```
+
+2. **Insert some text**:
+   - Press `i` to enter insert mode.
+   - Type any text, for example, "This is a test."
+   - Press `ESC` to return to command mode.
+
+3. **Save and exit**:
+   - Type `:wq` and press `Enter` to save the file and quit.
+
+---
+### Additional Editor: Vim
+
+- **Vim** (Vi Improved) offers additional functionality such as syntax highlighting, file recovery, and plugins for extended functionality. To use Vim, install it using your package manager:
+  ```bash
+  sudo apt install vim
+  ```
+
+---
+
+With practice, the VI/Vim editor can become an incredibly powerful tool in your Linux arsenal, helping you efficiently edit text files, configuration files, and scripts.
+
+---
