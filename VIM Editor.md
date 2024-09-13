@@ -188,3 +188,41 @@ VI operates in two primary modes:
 With practice, the VI/Vim editor can become an incredibly powerful tool in your Linux arsenal, helping you efficiently edit text files, configuration files, and scripts.
 
 ---
+
+## Additional Networking Commands
+
+These networking-related commands may also be helpful for monitoring and troubleshooting:
+
+- **netstat**:  
+  ```bash
+  netstat -tuln
+  ```
+  - **Description**: Displays active TCP/UDP ports and listening sockets.
+
+- **ss**:  
+  ```bash
+  ss -tuln
+  ```
+  - **Description**: A faster and more powerful alternative to `netstat` for displaying network connections.
+
+- **mtr**:  
+  ```bash
+  mtr google.com
+  ```
+  - **Description**: Combines the functionality of `traceroute` and `ping` to provide information about network connection performance.
+
+- **whois**:  
+  ```bash
+  whois domain.com
+  ```
+  - **Description**: Displays information about domain registration.
+
+- **ifplugstatus**:  
+  ```bash
+  ifplugstatus eth0
+  ```
+  - **Description**: Shows the link status of a network interface.
+
+---
+
+Essential VI/VIM commands for file editing, navigation, search, and network troubleshooting, for Linux users.
