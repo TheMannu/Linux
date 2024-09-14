@@ -40,3 +40,33 @@ apt-cache madison package_name
 ```
 
 ---
+
+#### 2. YUM / DNF - CentOS/RHEL/Fedora
+**Package Format**: .rpm  
+**YUM is used in RHEL/CentOS**; **DNF replaces YUM in Fedora**.  
+**Basic YUM/DNF Commands**:
+
+```bash
+# Update package list
+sudo yum update            # or sudo dnf update
+
+# Install a package
+sudo yum install package_name  # or sudo dnf install package_name
+
+# Remove a package
+sudo yum remove package_name   # or sudo dnf remove package_name
+
+# Search for a package
+yum search package_name        # or dnf search package_name
+
+# View installed packages
+yum list installed             # or dnf list installed
+
+# Clean up cache
+sudo yum clean all             # or sudo dnf clean all
+
+# Show package details
+yum info package_name          # or dnf info package_name
+```
+
+---
