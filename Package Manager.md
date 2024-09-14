@@ -116,3 +116,29 @@ zypper se --installed-only
 ```
 
 ---
+
+### Service Management Commands (Systemd-based)
+
+In modern Linux distributions, services are managed using `systemd`. Here’s how to control services:
+
+```bash
+# Start a service
+sudo systemctl start service_name
+
+# Stop a service
+sudo systemctl stop service_name
+
+# Restart a service
+sudo systemctl restart service_name
+
+# Check service status
+sudo systemctl status service_name
+
+# Enable a service at boot
+sudo systemctl enable service_name
+
+# Disable a service at boot
+sudo systemctl disable service_name
+```
+
+---
