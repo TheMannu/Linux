@@ -70,3 +70,26 @@ yum info package_name          # or dnf info package_name
 ```
 
 ---
+
+#### 3. Pacman - Arch Linux
+**Package Format**: .pkg.tar.xz  
+**Basic Pacman Commands**:
+
+```bash
+# Update package list and upgrade packages
+sudo pacman -Syu
+
+# Install a package
+sudo pacman -S package_name
+
+# Remove a package
+sudo pacman -R package_name
+
+# Search for a package
+pacman -Ss package_name
+
+# Show package details
+pacman -Si package_name
+```
+
+---
