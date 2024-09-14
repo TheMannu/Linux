@@ -93,3 +93,26 @@ pacman -Si package_name
 ```
 
 ---
+
+#### 4. Zypper - SUSE/OpenSUSE
+**Package Format**: .rpm  
+**Basic Zypper Commands**:
+
+```bash
+# Refresh repository list
+sudo zypper refresh
+
+# Install a package
+sudo zypper install package_name
+
+# Remove a package
+sudo zypper remove package_name
+
+# Search for a package
+zypper search package_name
+
+# List installed packages
+zypper se --installed-only
+```
+
+---
