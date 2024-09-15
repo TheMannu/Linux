@@ -30,3 +30,23 @@
 - **504 Gateway Timeout**: The server did not receive a timely response from an upstream server.
 
 ---
+
+### Troubleshooting Techniques for HTTP Errors
+
+#### Windows Troubleshooting
+
+1. **Use Browser Developer Tools**
+   - Press `F12` to open the browser developer console.
+   - Navigate to the "Network" tab to inspect requests and responses, including HTTP status codes and detailed error messages.
+   - This helps diagnose issues like failed resource loading, CORS problems, or network timeouts.
+
+2. **Check Logs**
+   - Check the browser console for JavaScript errors.
+   - If running a web server, review server logs (e.g., IIS logs located at `C:\inetpub\logs\LogFiles`) for any clues.
+
+3. **Clear Cache**
+   - Often, outdated cached resources cause issues. Clearing the browser cache might fix 304 "Not Modified" errors.
+   - Use `Ctrl + Shift + R` to hard-refresh the page.
+
+4. **Check DNS Settings**
+   - Use `ipconfig /flushdns` in Command Prompt to flush DNS, which resolves DNS-related issues.
