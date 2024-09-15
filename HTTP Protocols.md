@@ -50,3 +50,56 @@
 
 4. **Check DNS Settings**
    - Use `ipconfig /flushdns` in Command Prompt to flush DNS, which resolves DNS-related issues.
+
+#### Linux Troubleshooting
+
+1. **Inspect HTTP Requests with Curl**
+   - Use `curl -I <URL>` to inspect HTTP headers and status codes for a given URL:
+     ```bash
+     curl -I http://example.com
+     ```
+   - You can also use `curl -v` for verbose output to see the entire transaction, including headers.
+
+2. **Use Log Files**
+   - **Apache Logs**: `/var/log/apache2/error.log` or `/var/log/apache2/access.log`.
+   - **Nginx Logs**: `/var/log/nginx/error.log` or `/var/log/nginx/access.log`.
+   - Check logs for errors, especially if the server is returning 500 errors.
+
+3. **Network Tools**
+   - Use `ping` or `traceroute` to verify connectivity to a server.
+   - Example:
+     ```bash
+     ping google.com
+     traceroute google.com
+     ```
+
+4. **Check Service Status**
+   - For Linux web servers, ensure the server is running:
+     ```bash
+     systemctl status apache2  # For Apache
+     systemctl status nginx    # For Nginx
+     ```
+
+5. **Firewall & Proxy Settings**
+   - Verify firewall settings with `ufw` or `iptables` to ensure requests aren't being blocked:
+     ```bash
+     sudo ufw status
+     sudo iptables -L
+     ```
+
+6. **Analyze with `netstat` or `ss`**
+   - Use `netstat` or `ss` to examine open ports and active connections. This helps identify if the web server is listening on the correct port:
+     ```bash
+     sudo netstat -tuln
+     sudo ss -tuln
+     ```
+
+7. **DNS Troubleshooting**
+   - Use `nslookup` or `dig` to diagnose DNS issues:
+     ```bash
+     nslookup example.com
+     dig example.com
+     ```
+
+8. **Check Server Load**
+   - Use commands like `top`, `htop`, or `vmstat` to ensure the server isn’t overloaded, which could cause 503 "Service Unavailable" errors.
