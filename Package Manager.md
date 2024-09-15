@@ -122,6 +122,10 @@ zypper se --installed-only
 In modern Linux distributions, services are managed using `systemd`. Here’s how to control services:
 
 ```bash
+# Install a service
+sudo dnf -y install service_name
+sudo yum -y install service_name
+
 # Start a service
 sudo systemctl start service_name
 
