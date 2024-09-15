@@ -103,3 +103,22 @@
 
 8. **Check Server Load**
    - Use commands like `top`, `htop`, or `vmstat` to ensure the server isn’t overloaded, which could cause 503 "Service Unavailable" errors.
+   
+#### Common Scenarios
+
+- **404 Not Found**:
+  - Check the URL for typos.
+  - Ensure the resource exists on the server and is correctly mapped.
+
+- **500 Internal Server Error**:
+  - Check server logs for specific errors.
+  - Debug your application code to ensure there are no syntax errors or misconfigurations.
+
+- **502 Bad Gateway**:
+  - This is often a proxy or load balancer issue. Check the connection between the proxy server and the upstream server.
+
+- **503 Service Unavailable**:
+  - Investigate whether the server is down for maintenance or overloaded.
+  - Check server logs and use monitoring tools like `top` to analyze load.
+
+With these techniques and tools, both Windows and Linux users can efficiently diagnose and resolve HTTP-related issues.
