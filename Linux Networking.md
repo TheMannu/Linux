@@ -112,6 +112,11 @@ Linux provides a wide range of networking tools to configure, monitor, and troub
   - **Command**: `hostname`  
   - **Description**: Displays the current hostname of the system.
 
+- **View Hostname Information**
+  - **Command:** `hostnamectl`
+  - **Example:** `hostnamectl`
+  - **Description:** Displays detailed information about the system's hostname, including static and transient hostnames, as well as related metadata like the operating system and kernel version.
+  
 - **Set Hostname**  
   - **Command**: `hostnamectl set-hostname [new-hostname]`  
   - **Example**: `sudo hostnamectl set-hostname my-server`  
