@@ -160,5 +160,31 @@
         - `((count++))`: Increments `count` by `1` after each loop.
     - **Common Use**: Repeating tasks until a certain condition is met.
 
+---
+
+12. **`read`**:
+    - **Description**: Reads user input from the command line.
+    - **Usage**:
+      ```bash
+      read -p "Enter your name: " name
+      echo "Hello, $name!"
+      ```
+      - **Explanation**:
+        - `read -p "Enter your name: "`: Prompts the user to enter their name.
+        - `name`: Stores the user input in the variable `name`.
+        - `echo "Hello, $name!"`: Prints a greeting using the user input.
+    - **Common Use**: Getting user input in interactive scripts.
+
+---
+
+13. **`sleep`**:
+    - **Description**: Pauses execution for a specified amount of time.
+    - **Usage**:
+      ```bash
+      sleep 2  # Pauses for 2 seconds
+      ```
+    - **Common Use**: Introducing delays or pauses between commands in scripts.
+
+
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
