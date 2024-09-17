@@ -40,5 +40,31 @@
        - `file.txt`: The file to search within.
    - **Common Use**: Searching log files, filtering outputs in scripts, or finding specific lines in files.
 
+---
+
+4. **Piping (`|`)**:
+   - **Description**: Pipes take the output of one command and use it as input for another command.
+   - **Usage**:
+     ```bash
+     ps -ef | grep bash
+     ```
+     - **Explanation**:
+       - `ps -ef`: Lists all running processes.
+       - `|`: Passes the output of `ps -ef` to the next command.
+       - `grep bash`: Filters the processes to only show lines containing "bash".
+   - **Common Use**: Combining commands in scripts to process and filter outputs.
+
+---
+
+5. **`df`**:
+   - **Description**: Displays information about the file system’s disk space usage.
+   - **Usage**:
+     ```bash
+     df -h
+     ```
+     - **Explanation**:
+       - `-h`: Displays the output in a human-readable format (e.g., GB, MB).
+   - **Common Use**: Checking available disk space before installing new software or performing backups.
+
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
