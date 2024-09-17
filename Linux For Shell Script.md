@@ -185,6 +185,18 @@
       ```
     - **Common Use**: Introducing delays or pauses between commands in scripts.
 
+---
 
+14. **`chmod +x`**:
+    - **Description**: Makes a file executable.
+    - **Usage**:
+      ```bash
+      chmod +x script.sh
+      ```
+      - **Explanation**:
+        - `chmod +x`: Adds execute permissions to the file `script.sh`, allowing it to be run directly.
+    - **Common Use**: Granting execution permission to shell scripts or binary files.
+
+---
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
