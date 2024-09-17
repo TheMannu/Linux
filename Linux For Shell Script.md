@@ -15,5 +15,30 @@
        - `$(whoami)`: This uses command substitution to get the current username and prints it.
    - **Common Use**: Displaying messages, variables, or command output within a script.
 
+---
+
+2. **`free`**:
+   - **Description**: Displays information about memory usage.
+   - **Usage**:
+     ```bash
+     free -h
+     ```
+     - **Explanation**:
+       - `-h`: Displays memory usage in a human-readable format (e.g., MB, GB).
+   - **Common Use**: Checking memory status before running memory-intensive operations in scripts.
+
+---
+
+3. **`grep`**:
+   - **Description**: Used to search for specific patterns within text files or outputs.
+   - **Usage**:
+     ```bash
+     grep "search_term" file.txt
+     ```
+     - **Explanation**:
+       - `"search_term"`: The string or pattern you are looking for.
+       - `file.txt`: The file to search within.
+   - **Common Use**: Searching log files, filtering outputs in scripts, or finding specific lines in files.
+
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
