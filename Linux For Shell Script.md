@@ -128,5 +128,37 @@
        - `else`: Executes the commands if the condition is false.
    - **Common Use**: Conditional checks for variables, commands, or statuses in scripts.
 
+---
+
+10. **`for` Loops**:
+    - **Description**: Repeats a set of commands for each item in a list or range.
+    - **Usage**:
+      ```bash
+      for i in {1..5}; do
+        echo "Number: $i"
+      done
+      ```
+      - **Explanation**:
+        - `for i in {1..5}`: Iterates through numbers from `1` to `5`.
+        - `do ... done`: Defines the commands to be repeated for each value.
+    - **Common Use**: Iterating through lists, ranges, or files in scripts.
+
+---
+
+11. **`while` Loop**:
+    - **Description**: Repeats commands as long as a condition is true.
+    - **Usage**:
+      ```bash
+      count=1
+      while [ $count -le 5 ]; do
+        echo "Count: $count"
+        ((count++))
+      done
+      ```
+      - **Explanation**:
+        - `while [ $count -le 5 ]`: Loops while `count` is less than or equal to `5`.
+        - `((count++))`: Increments `count` by `1` after each loop.
+    - **Common Use**: Repeating tasks until a certain condition is met.
+
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
