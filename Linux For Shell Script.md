@@ -94,5 +94,39 @@
        - `echo "$SOMEVAR"`: Prints the value of `SOMEVAR`.
    - **Common Use**: Storing and reusing values in scripts.
 
+---
+
+8. **Executing Shell Scripts**:
+   - **Description**: You can execute a shell script using `sh` or by marking it as executable.
+   - **Usage**:
+     ```bash
+     sh script.sh  # Runs the script with the `sh` command
+     ./script.sh   # Runs the script if it is executable
+     ```
+     - **Explanation**:
+       - `sh script.sh`: Executes the script using the `sh` command.
+       - `./script.sh`: Runs the script directly if it's marked as executable (`chmod +x script.sh`).
+   - **Common Use**: Running shell scripts from the command line.
+
+---
+
+### **Additional Commands for Shell Scripts**
+
+9. **`if` Statements**:
+   - **Description**: Conditional execution based on conditions.
+   - **Usage**:
+     ```bash
+     if [ "$USER" == "root" ]; then
+       echo "You are root"
+     else
+       echo "You are not root"
+     fi
+     ```
+     - **Explanation**:
+       - `[ "$USER" == "root" ]`: Checks if the current user is "root".
+       - `then`: Executes the following commands if the condition is true.
+       - `else`: Executes the commands if the condition is false.
+   - **Common Use**: Conditional checks for variables, commands, or statuses in scripts.
+
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
