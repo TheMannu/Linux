@@ -66,5 +66,33 @@
        - `-h`: Displays the output in a human-readable format (e.g., GB, MB).
    - **Common Use**: Checking available disk space before installing new software or performing backups.
 
+---
+
+6. **Arithmetic Operations**:
+   - **Description**: Basic arithmetic operations can be done directly in shell scripts.
+   - **Usage**:
+     ```bash
+     ((sum=10+5))
+     echo $sum
+     ```
+     - **Explanation**:
+       - `((sum=10+5))`: Adds the values `10` and `5` and stores the result in the variable `sum`.
+       - `echo $sum`: Prints the value of `sum`.
+   - **Common Use**: Performing calculations in scripts.
+
+---
+
+7. **Variables**:
+   - **Description**: Variables store data that can be reused in a script.
+   - **Usage**:
+     ```bash
+     SOMEVAR="text stuff I am learning"
+     echo "$SOMEVAR"
+     ```
+     - **Explanation**:
+       - `SOMEVAR="text stuff I am learning"`: Assigns the value to the variable `SOMEVAR`.
+       - `echo "$SOMEVAR"`: Prints the value of `SOMEVAR`.
+   - **Common Use**: Storing and reusing values in scripts.
+
 
 Shell Scripts, can automate a wide range of tasks such as system administration, file management, and software installation.
