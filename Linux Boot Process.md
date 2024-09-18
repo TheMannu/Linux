@@ -44,3 +44,14 @@ Structured Overview of the boot process:
    - **Key Functions**:
      - Executes initialization scripts based on the selected **runlevel** (legacy) or **target** (systemd).
      - Prepares the environment and launches necessary services, bringing the system to a usable state.
+
+### 8. **Runlevels/Targets**
+   - **Description**: **Runlevels** (in sysvinit) or **targets** (in systemd) define the system’s operational state, such as single-user mode, multi-user mode, or graphical interface.
+   - **Key Functions**:
+     - Executes the appropriate system initialization scripts for services and daemons based on the runlevel or target.
+     - Examples of runlevels:
+       - 0: Halt (shutdown the system).
+       - 1: Single-user mode.
+       - 3: Multi-user mode without graphical interface.
+       - 5: Multi-user mode with graphical interface.
+       - 6: Reboot.
