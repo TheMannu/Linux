@@ -55,3 +55,9 @@ Structured Overview of the boot process:
        - 3: Multi-user mode without graphical interface.
        - 5: Multi-user mode with graphical interface.
        - 6: Reboot.
+
+### 9. **Runlevel Scripts (Startup Scripts)**
+   - **Description**: **Runlevel scripts** (or service files in systemd) are executed at the respective runlevel or target to start services and daemons such as networking, display managers, etc.
+   - **Key Functions**:
+     - Starts, stops, or configures services based on the system's mode.
+     - Ensures the necessary background processes are up and running for system functionality.
