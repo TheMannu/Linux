@@ -19,3 +19,9 @@ Structured Overview of the boot process:
    - **Key Functions**:
      - Loads the boot loader into memory (typically **GRUB** or another boot manager).
      - Contains partition information to identify the location of the bootloader and system partitions.
+
+### 4. **Boot Loader Stage 1 (MBR Loading)**
+   - **Description**: The BIOS hands over control to the boot loader, located in the MBR, initiating the boot process.
+   - **Key Functions**:
+     - Loads the first stage of the bootloader into memory.
+     - Prepares for the handoff to the second stage (GRUB or other boot loaders).
