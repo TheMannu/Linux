@@ -31,3 +31,10 @@ Structured Overview of the boot process:
    - **Key Functions**:
      - Displays a boot menu with options for available OSes or kernels.
      - Loads the selected kernel into memory and passes control to it for execution.
+
+### 6. **Kernel Loading**
+   - **Description**: The **kernel** is the core component of the Linux operating system. It manages communication between the hardware and software.
+   - **Key Functions**:
+     - Initializes hardware components such as the CPU, memory, and I/O devices.
+     - Mounts the root filesystem to allow access to the system's resources.
+     - Starts the **init** process, which further initializes the system.
