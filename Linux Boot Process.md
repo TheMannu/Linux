@@ -25,3 +25,9 @@ Structured Overview of the boot process:
    - **Key Functions**:
      - Loads the first stage of the bootloader into memory.
      - Prepares for the handoff to the second stage (GRUB or other boot loaders).
+
+### 5. **Boot Loader Stage 2 (GRUB Boot Loader)**
+   - **Description**: The **GRUB (Grand Unified Boot Loader)** is the most common boot loader in Linux systems, allowing the selection of the operating system or kernel to load.
+   - **Key Functions**:
+     - Displays a boot menu with options for available OSes or kernels.
+     - Loads the selected kernel into memory and passes control to it for execution.
