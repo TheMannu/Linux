@@ -69,3 +69,21 @@ Structured Overview of the boot process:
      - Upon successful login, provides access to the command line or graphical environment.
 
 ---
+
+### **Additional Terms and Concepts in the Boot Process**:
+- **BIOS**: The firmware that initializes hardware and begins the boot process.
+- **MBR (Master Boot Record)**: Contains the boot loader and partition table; essential for locating and loading the OS.
+- **GRUB (Grand Unified Boot Loader)**: Boot loader for selecting and loading OS or kernels.
+- **Kernel**: The central component of the OS that manages system resources and hardware.
+- **Init**: The first process to start user space initialization and manage the system's runlevel or target.
+- **Runlevels/Targets**: Defines the state of the system (e.g., graphical, multi-user, or single-user mode).
+- **User Commands**: After the system boots, users can interact with the OS using terminal or graphical commands.
+
+---
+
+### **Useful Boot Commands**:
+- **`dmesg`**: Displays detailed boot messages and information about hardware initialization.
+  
+---
+
+This process takes the system from powering on to presenting the user with a login prompt or graphical user interface (GUI/CLI), ready for user interaction.
