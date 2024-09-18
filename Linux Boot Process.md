@@ -61,3 +61,11 @@ Structured Overview of the boot process:
    - **Key Functions**:
      - Starts, stops, or configures services based on the system's mode.
      - Ensures the necessary background processes are up and running for system functionality.
+
+### 10. **User Prompt (Login Screen)**
+   - **Description**: If all processes are successfully completed, the system transitions to the **user prompt**. This is either a graphical login screen (GUI) or a text-based terminal (CLI), where users can authenticate and begin interacting with the system.
+   - **Key Functions**:
+     - Displays the user interface for login.
+     - Upon successful login, provides access to the command line or graphical environment.
+
+---
