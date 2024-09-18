@@ -13,3 +13,9 @@ Structured Overview of the boot process:
    - **Key Functions**:
      - Verifies hardware functionality through POST.
      - Locates the boot device containing the **Master Boot Record (MBR)**, and hands over control to it.
+
+### 3. **MBR (Master Boot Record)**
+   - **Description**: The **MBR** resides in the first sector of the bootable disk (usually 512 bytes). It contains boot loader information and the partition table.
+   - **Key Functions**:
+     - Loads the boot loader into memory (typically **GRUB** or another boot manager).
+     - Contains partition information to identify the location of the bootloader and system partitions.
