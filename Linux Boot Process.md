@@ -38,3 +38,9 @@ Structured Overview of the boot process:
      - Initializes hardware components such as the CPU, memory, and I/O devices.
      - Mounts the root filesystem to allow access to the system's resources.
      - Starts the **init** process, which further initializes the system.
+
+### 7. **INIT Process (Initial Process)**
+   - **Description**: The **init** process is the first process started by the kernel. It is responsible for initializing the user space and setting up the system to enter a defined runlevel or system target.
+   - **Key Functions**:
+     - Executes initialization scripts based on the selected **runlevel** (legacy) or **target** (systemd).
+     - Prepares the environment and launches necessary services, bringing the system to a usable state.
