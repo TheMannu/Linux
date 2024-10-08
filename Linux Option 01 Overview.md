@@ -5,3 +5,5 @@
 - **File Operations** options such as `-f`, `-i`, `-v`, `-p`, **`-n` (No Overwrite)**, **`--help`** 
 
 - **Process Management** options like `-e`, `-u`, `-a`, `-f`, `-o` 
+
+- **System Information** options like `-a`, `-r`, `-s`, `-m` 
