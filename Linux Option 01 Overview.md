@@ -1,0 +1,1 @@
+- **File and Directory Management** options like `-a`, `-l`, `-R`, `-r`, `-h`, **`-t` (Sort by Time)** 
