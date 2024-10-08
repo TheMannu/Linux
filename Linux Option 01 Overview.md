@@ -11,3 +11,5 @@
 - **Networking** options like `-i`, `-a`, `-n`, `-l`
 
 - **Archive and Compression** options like `-c`, `-x`, `-z`, `-j`, `-t`
+ 
+- **Permissions and Ownership** options like `-R`, `-v`, `-c` 
