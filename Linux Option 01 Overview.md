@@ -7,3 +7,5 @@
 - **Process Management** options like `-e`, `-u`, `-a`, `-f`, `-o` 
 
 - **System Information** options like `-a`, `-r`, `-s`, `-m` 
+
+- **Networking** options like `-i`, `-a`, `-n`, `-l`
