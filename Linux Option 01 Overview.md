@@ -9,3 +9,5 @@
 - **System Information** options like `-a`, `-r`, `-s`, `-m` 
 
 - **Networking** options like `-i`, `-a`, `-n`, `-l`
+
+- **Archive and Compression** options like `-c`, `-x`, `-z`, `-j`, `-t`
