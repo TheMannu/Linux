@@ -7,3 +7,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ls -a`: Lists all files, including hidden ones (those starting with `.`).
      - `ps -a`: Displays all processes running for all users.
+
+---
+
+### 2. **`-l` (Long Format)**
+   - **Explanation**: Displays detailed information, typically in a long format.
+   - **Examples**:
+     - `ls -l`: Lists files with detailed attributes (permissions, ownership, timestamps).
+     - `ps -l`: Displays processes in long format with additional details.
