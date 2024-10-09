@@ -13,3 +13,5 @@
 - **Archive and Compression** options like `-c`, `-x`, `-z`, `-j`, `-t`
  
 - **Permissions and Ownership** options like `-R`, `-v`, `-c` 
+
+- **Permissions and Ownership** options like `-R`, `-v`, `-c`
