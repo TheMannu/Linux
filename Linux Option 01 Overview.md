@@ -19,3 +19,5 @@
 - **System Management** options like `-h`, `-r`, `-h now`, **`--help`** 
 
 - **User Management** options like `-m`, `-r`, `-G` 
+
+- **Package Management (APT)** options like `-y`, `-s`, `-q`, `-f`, **`-q` (Quiet)** 
