@@ -17,3 +17,5 @@
 - **Permissions and Ownership** options like `-R`, `-v`, `-c`
 
 - **System Management** options like `-h`, `-r`, `-h now`, **`--help`** 
+
+- **User Management** options like `-m`, `-r`, `-G` 
