@@ -1,0 +1,9 @@
+List of common options used with Linux commands, along with examples and explanations.
+
+---
+
+### 1. **`-a` (All)**
+   - **Explanation**: Displays all files, including hidden ones.
+   - **Examples**:
+     - `ls -a`: Lists all files, including hidden ones (those starting with `.`).
+     - `ps -a`: Displays all processes running for all users.
