@@ -62,3 +62,12 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ls -lh`: Lists files with human-readable sizes.
      - `df -h`: Displays disk space usage in a human-readable format.
+
+---
+
+### 9. **`-t` (Sort by Time)**
+   - **Explanation**: Sorts results by modification time.
+   - **Examples**:
+     - `ls -lt`: Lists files sorted by modification time.
+     - `ps -t`: Displays processes sorted by the time they were started.
+
