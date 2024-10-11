@@ -71,3 +71,10 @@ List of common options used with Linux commands, along with examples and explana
      - `ls -lt`: Lists files sorted by modification time.
      - `ps -t`: Displays processes sorted by the time they were started.
 
+---
+
+### 10. **`-u` (User)**
+   - **Explanation**: Specifies or shows information related to users.
+   - **Examples**:
+     - `ps -u username`: Displays processes owned by a specific user.
+     - `chown -u username file.txt`: Changes the ownership of `file.txt` to a specific user.
