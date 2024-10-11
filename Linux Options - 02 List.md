@@ -47,3 +47,10 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `rm -i file.txt`: Prompts for confirmation before deleting the file.
      - `cp -i source.txt dest.txt`: Asks for confirmation before overwriting `dest.txt`.
+
+---
+
+### 7. **`-n` (No Overwrite)**
+   - **Explanation**: Prevents overwriting of existing files.
+   - **Examples**:
+     - `cp -n file1.txt dir/`: Copy `file1.txt` to `dir/` without overwriting any existing files.
