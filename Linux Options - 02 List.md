@@ -39,3 +39,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `cp -v source.txt dest.txt`: Verbosely copies the file, showing details.
      - `tar -cvf archive.tar folder`: Verbosely creates an archive, listing all files being added.
+
+---
+
+### 6. **`-i` (Interactive)**
+   - **Explanation**: Prompts for confirmation before taking actions.
+   - **Examples**:
+     - `rm -i file.txt`: Prompts for confirmation before deleting the file.
+     - `cp -i source.txt dest.txt`: Asks for confirmation before overwriting `dest.txt`.
