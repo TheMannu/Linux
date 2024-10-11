@@ -54,3 +54,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Explanation**: Prevents overwriting of existing files.
    - **Examples**:
      - `cp -n file1.txt dir/`: Copy `file1.txt` to `dir/` without overwriting any existing files.
+
+---
+
+### 8. **`-h` (Human-Readable)**
+   - **Explanation**: Displays file sizes in a human-readable format (e.g., KB, MB, GB).
+   - **Examples**:
+     - `ls -lh`: Lists files with human-readable sizes.
+     - `df -h`: Displays disk space usage in a human-readable format.
