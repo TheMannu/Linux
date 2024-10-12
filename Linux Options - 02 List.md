@@ -78,3 +78,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ps -u username`: Displays processes owned by a specific user.
      - `chown -u username file.txt`: Changes the ownership of `file.txt` to a specific user.
+
+---
+
+### 11. **`-p` (Process or PID)**
+   - **Explanation**: Works with Process IDs (PIDs) in commands related to processes.
+   - **Examples**:
+     - `kill -p 1234`: Kills the process with the specified PID.
+     - `ps -p 1234`: Displays details for a specific process by PID.
