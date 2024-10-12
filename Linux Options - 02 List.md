@@ -118,3 +118,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `wc -c file.txt`: Displays the number of characters in `file.txt`.
      - `touch -c file.txt`: Creates or updates the timestamp of `file.txt`.
+
+---
+
+### 16. **`--help` (Help)**
+   - **Explanation**: Displays help information for a command.
+   - **Examples**:
+     - `ls --help`: Shows detailed help for the `ls` command.
+     - `cp --help`: Displays help options for the `cp` command.
