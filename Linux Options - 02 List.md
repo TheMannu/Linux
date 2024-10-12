@@ -110,3 +110,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `rm -s file.txt`: Deletes the file without showing any message.
      - `ln -s /path/to/file symlink`: Creates a symbolic link to the file.
+
+---
+
+### 15. **`-c` (Count or Create)**
+   - **Explanation**: Counts occurrences or creates files.
+   - **Examples**:
+     - `wc -c file.txt`: Displays the number of characters in `file.txt`.
+     - `touch -c file.txt`: Creates or updates the timestamp of `file.txt`.
