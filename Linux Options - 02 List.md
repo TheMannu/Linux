@@ -86,3 +86,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `kill -p 1234`: Kills the process with the specified PID.
      - `ps -p 1234`: Displays details for a specific process by PID.
+
+---
+
+### 12. **`-g` (Group)**
+   - **Explanation**: Specifies or changes group-related information.
+   - **Examples**:
+     - `ps -g`: Displays processes grouped by session ID.
+     - `chgrp -g groupname file.txt`: Changes the group ownership of `file.txt`.
