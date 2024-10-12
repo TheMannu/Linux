@@ -94,3 +94,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ps -g`: Displays processes grouped by session ID.
      - `chgrp -g groupname file.txt`: Changes the group ownership of `file.txt`.
+
+---
+
+### 13. **`-d` (Directory)**
+   - **Explanation**: Applies the command to directories or displays directory-specific information.
+   - **Examples**:
+     - `ls -d`: Lists only directories.
+     - `find . -type d`: Finds directories recursively starting from the current directory.
