@@ -102,3 +102,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ls -d`: Lists only directories.
      - `find . -type d`: Finds directories recursively starting from the current directory.
+
+---
+
+### 14. **`-s` (Silent or Symbolic Link)**
+   - **Explanation**: Executes silently or creates symbolic links.
+   - **Examples**:
+     - `rm -s file.txt`: Deletes the file without showing any message.
+     - `ln -s /path/to/file symlink`: Creates a symbolic link to the file.
