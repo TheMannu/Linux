@@ -11,3 +11,19 @@ File permissions in Linux determine who can do what with a file or directory. Pe
 - **Owner**: The user who created the file or directory.
 - **Group**: A group to which the owner belongs.
 - **Others**: All other users on the system.
+
+---
+
+#### **Categories of Users:**
+- **Owner**: The user who created the file or directory.
+- **Group**: A group of users to which the owner belongs.
+- **Others**: Everyone else who has access to the file or directory but is not part of the owner or group.
+
+---
+
+#### **Types of Permissions:**
+- **Read (r)**: Allows viewing the file's content.
+- **Write (w)**: Allows modifying or deleting the file.
+- **Execute (x)**: Allows running the file as a program.
+
+---
