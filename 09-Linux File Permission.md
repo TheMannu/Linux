@@ -75,3 +75,13 @@ Access Control Lists (ACLs) provide more fine-grained control over file permissi
 #### **Why Use ACLs?**
 - **Fine-tuned control**: ACLs allow you to give specific users or groups customized permissions.
 - **Flexibility**: Ideal when multiple users require different levels of access to the same file.
+
+---
+
+#### **How Do ACLs Work?**
+ACLs can set extra permissions for users and groups in addition to the normal file permissions. You can specify which users or groups can:
+- **Read**
+- **Write**
+- **Execute**
+
+This is particularly useful when you need to grant different levels of access for the same file or directory to multiple users or groups.
