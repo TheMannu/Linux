@@ -27,3 +27,15 @@ File permissions in Linux determine who can do what with a file or directory. Pe
 - **Execute (x)**: Allows running the file as a program.
 
 ---
+
+### **2. How Permissions Are Represented:**
+
+When you list files using `ls -l`, file permissions are shown as a string of characters:
+
+```
+drwxrwxr-x 1 ashwan ashwan 157 Oct 10 18:27 adduserss.sh
+-rwxrwxr-x 1 ashwan ashwan 469 Oct 10 18:19 backup.sh
+-rwxrwxr-x 1 ashwan ashwan 378 Oct 10 18:19 createDirectories.sh
+-rwxrwxr-x 1 ashwan ashwan 58  Oct 10 18:18 forloop.sh
+-rwxrwxr-x 1 ashwan ashwan 136 Oct 10 18:15 ifcondi.sh
+```
