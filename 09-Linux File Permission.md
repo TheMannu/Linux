@@ -96,3 +96,18 @@ This is particularly useful when you need to grant different levels of access fo
 | `chmod [permissions] [file]`   | Changes the file permissions (e.g., `chmod 755 file.sh`). |
 | `chown [owner]:[group] [file]` | Changes the ownership of a file (e.g., `chown user:group file`). |
 | `ls -l`                 | Lists the file permissions.                                  |
+
+#### **ACLs:**
+| Command                                    | Description                                      |
+|--------------------------------------------|--------------------------------------------------|
+| `getfacl [file]`                           | Shows the ACLs associated with a file.           |
+| `setfacl -m u:[user]:[rwx] [file]`         | Adds ACL permissions for a user.                 |
+| `setfacl -x u:[user] [file]`               | Removes ACL permissions for a user.              |
+| `setfacl -m g:[group]:[rwx] [file]`        | Adds ACL permissions for a group.                |
+| `setfacl -b [file]`                        | Removes all ACL entries from a file.             |
+
+---
+
+### **Conclusion:**
+
+Mastering file permissions and ACLs in Linux allows you to control who can access and modify files, which is crucial for both security and effective system administration.
