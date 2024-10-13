@@ -39,3 +39,26 @@ drwxrwxr-x 1 ashwan ashwan 157 Oct 10 18:27 adduserss.sh
 -rwxrwxr-x 1 ashwan ashwan 58  Oct 10 18:18 forloop.sh
 -rwxrwxr-x 1 ashwan ashwan 136 Oct 10 18:15 ifcondi.sh
 ```
+
+---
+
+#### **Breaking Down the Permission String:**
+Each file permission string is split into three parts:
+- **Owner**: `rwx` — can read, write, and execute.
+- **Group**: `r-x` — can read and execute but not write.
+- **Others**: `r--` — can only read.
+
+---
+
+### **3. Permission Numbers:**
+Permissions can also be represented by numbers, where:
+- **Read = 4**
+- **Write = 2**
+- **Execute = 1**
+
+You sum these values to get a numeric representation. For example:
+- `rwx = 4 + 2 + 1 = 7`
+- `r-x = 4 + 0 + 1 = 5`
+- `r-- = 4 + 0 + 0 = 4`
+
+Thus, the permission string `rwxr-xr--` becomes `755`.
