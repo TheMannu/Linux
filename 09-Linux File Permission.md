@@ -62,3 +62,16 @@ You sum these values to get a numeric representation. For example:
 - `r-- = 4 + 0 + 0 = 4`
 
 Thus, the permission string `rwxr-xr--` becomes `755`.
+
+---
+
+### **4. Access Control Lists (ACLs)**
+
+**What are ACLs?**  
+Access Control Lists (ACLs) provide more fine-grained control over file permissions, allowing you to specify different permissions for multiple users or groups beyond the traditional "Owner-Group-Others" model.
+
+---
+
+#### **Why Use ACLs?**
+- **Fine-tuned control**: ACLs allow you to give specific users or groups customized permissions.
+- **Flexibility**: Ideal when multiple users require different levels of access to the same file.
