@@ -85,3 +85,14 @@ ACLs can set extra permissions for users and groups in addition to the normal fi
 - **Execute**
 
 This is particularly useful when you need to grant different levels of access for the same file or directory to multiple users or groups.
+
+--- 
+
+### **Key Commands for File Permissions & ACLs**
+
+#### **File Permissions:**
+| Command                 | Description                                                  |
+|-------------------------|--------------------------------------------------------------|
+| `chmod [permissions] [file]`   | Changes the file permissions (e.g., `chmod 755 file.sh`). |
+| `chown [owner]:[group] [file]` | Changes the ownership of a file (e.g., `chown user:group file`). |
+| `ls -l`                 | Lists the file permissions.                                  |
