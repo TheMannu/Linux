@@ -126,3 +126,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ls --help`: Shows detailed help for the `ls` command.
      - `cp --help`: Displays help options for the `cp` command.
+
+---
+
+### 17. **`-R` (Recursive or Reverse)**
+   - **Explanation**: Recursively lists directories or reverses sorting.
+   - **Examples**:
+     - `ls -R`: Recursively lists the contents of directories.
+     - `sort -r file.txt`: Sorts the contents of `file.txt` in reverse order.
