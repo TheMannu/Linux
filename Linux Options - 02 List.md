@@ -142,3 +142,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `rsync -x`: Excludes certain files from synchronization.
      - `tar --exclude=*.log`: Excludes `.log` files while creating an archive.
+
+---
+
+### 19. **`-e` (Execute or Expression)**
+   - **Explanation**: Executes commands or matches expressions.
+   - **Examples**:
+     - `find . -name "*.sh" -exec chmod +x {} \;`: Finds all `.sh` files and makes them executable.
+     - `grep -e pattern file.txt`: Matches a specific pattern in `file.txt`.
