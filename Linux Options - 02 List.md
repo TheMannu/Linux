@@ -134,3 +134,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `ls -R`: Recursively lists the contents of directories.
      - `sort -r file.txt`: Sorts the contents of `file.txt` in reverse order.
+
+---
+
+### 18. **`-x` (Exclude)**
+   - **Explanation**: Excludes specific files or directories from actions.
+   - **Examples**:
+     - `rsync -x`: Excludes certain files from synchronization.
+     - `tar --exclude=*.log`: Excludes `.log` files while creating an archive.
