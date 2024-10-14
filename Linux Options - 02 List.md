@@ -158,3 +158,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `grep -q pattern file.txt`: Searches for a pattern silently.
      - `wget -q http://example.com`: Downloads a file quietly.
+
+---
+
+### 21. **`-P` (Absolute Path)**
+   - **Explanation**: Retains absolute paths when archiving or copying.
+   - **Examples**:
+     - `tar -Pczf backup.tar.gz /home/user/project`: Creates an archive with absolute paths.
+     - `cp -P /source/file /dest/`: Copies a file while preserving absolute paths.
