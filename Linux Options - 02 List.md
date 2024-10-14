@@ -150,3 +150,11 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `find . -name "*.sh" -exec chmod +x {} \;`: Finds all `.sh` files and makes them executable.
      - `grep -e pattern file.txt`: Matches a specific pattern in `file.txt`.
+
+---
+
+### 20. **`-q` (Quiet)**
+   - **Explanation**: Suppresses output.
+   - **Examples**:
+     - `grep -q pattern file.txt`: Searches for a pattern silently.
+     - `wget -q http://example.com`: Downloads a file quietly.
