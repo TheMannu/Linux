@@ -166,3 +166,21 @@ List of common options used with Linux commands, along with examples and explana
    - **Examples**:
      - `tar -Pczf backup.tar.gz /home/user/project`: Creates an archive with absolute paths.
      - `cp -P /source/file /dest/`: Copies a file while preserving absolute paths.
+
+---
+
+### 22. **`-z` (Compress)**
+   - **Explanation**: Compresses or decompresses files.
+   - **Examples**:
+     - `tar -czf archive.tar.gz folder`: Compresses `folder` into a `.tar.gz` archive.
+     - `gzip file.txt`: Compresses `file.txt` using gzip.
+
+---
+
+### 23. **`-o` (Owner)**
+   - **Explanation**: Changes or specifies file ownership.
+   - **Examples**:
+     - `chown -o username file.txt`: Changes the ownership of `file.txt`.
+     - `ls -o`: Lists files showing ownership details.
+
+---
