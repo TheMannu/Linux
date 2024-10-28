@@ -184,3 +184,19 @@ List of common options used with Linux commands, along with examples and explana
      - `ls -o`: Lists files showing ownership details.
 
 ---
+
+### 24. **`-b` (Backup)**
+   - **Explanation**: Creates a backup before overwriting files.
+   - **Examples**:
+     - `cp -b file.txt /backup/`: Creates a backup before copying `file.txt`.
+     - `mv -b file.txt /backup/`: Moves the file while creating a backup.
+
+---
+
+### 25. **`-k` (Keep)**
+   - **Explanation**: Prevents files from being overwritten.
+   - **Examples**:
+     - `cp -k file.txt /backup/`: Copies the file only if it does not exist in the destination.
+     - `mv -k file.txt /backup/`: Moves the file only if the destination does not have the file.
+
+---
