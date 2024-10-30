@@ -44,3 +44,15 @@ List of **Linux Options Categoriy Wise** :
   - Example: `ps -f` (Display processes with full information).
 - **`-o` (Output Format)**: Specify the output format for process information.
   - Example: `ps -o pid,user,command` (Show process ID, user, and command).
+
+---
+
+### **System Information**
+- **`-a` (All Information)**: Show all available information.
+  - Example: `uname -a` (Display all system information).
+- **`-r` (Kernel Release)**: Show the kernel release.
+  - Example: `uname -r` (Display the kernel release version).
+- **`-s` (Kernel Name)**: Show the kernel name.
+  - Example: `uname -s` (Display the kernel name).
+- **`-m` (Machine Hardware Name)**: Show the machine hardware name.
+  - Example: `uname -m` (Display the machine's hardware architecture).
