@@ -56,3 +56,15 @@ List of **Linux Options Categoriy Wise** :
   - Example: `uname -s` (Display the kernel name).
 - **`-m` (Machine Hardware Name)**: Show the machine hardware name.
   - Example: `uname -m` (Display the machine's hardware architecture).
+
+---
+
+### **Networking**
+- **`-i` (Interfaces)**: Display all network interfaces.
+  - Example: `ifconfig -i` (Show all network interfaces).
+- **`-a` (All Connections)**: Display all network connections.
+  - Example: `netstat -a` (Show all active connections).
+- **`-n` (Numeric)**: Show numeric addresses instead of resolving names.
+  - Example: `netstat -n` (Display numeric IP addresses).
+- **`-l` (Listening Ports)**: Show listening ports.
+  - Example: `netstat -l` (Display listening ports).
