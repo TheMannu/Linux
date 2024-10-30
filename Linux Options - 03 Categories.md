@@ -17,3 +17,15 @@ List of **Linux Options Categoriy Wise** :
   - Example: `cp -n file.txt dir/` (Copy file without overwriting).
 - **`-t` (Sort by Time)**: Sort by modification time.
   - Example: `ls -lt` (List files sorted by time).
+
+---
+
+### **File Operations**
+- **`-f` (Force)**: Force action, ignoring warnings.
+  - Example: `rm -f file.txt` (Forcefully delete file without confirmation).
+- **`-i` (Interactive)**: Ask for confirmation before taking action.
+  - Example: `rm -i file.txt` (Ask before deleting the file).
+- **`-v` (Verbose)**: Show detailed actions being performed.
+  - Example: `cp -v file1.txt dir/` (Copy with detailed output).
+- **`-p` (Preserve)**: Preserve file attributes.
+  - Example: `cp -p file1.txt dir/` (Copy while preserving file attributes).
