@@ -29,3 +29,18 @@ List of **Linux Options Categoriy Wise** :
   - Example: `cp -v file1.txt dir/` (Copy with detailed output).
 - **`-p` (Preserve)**: Preserve file attributes.
   - Example: `cp -p file1.txt dir/` (Copy while preserving file attributes).
+
+
+---
+
+### **Process Management**
+- **`-e` (Everything)**: Show all processes.
+  - Example: `ps -e` (Display all processes).
+- **`-u` (User)**: Show processes for a specific user.
+  - Example: `ps -u username` (Show processes owned by a specific user).
+- **`-a` (All but TTY)**: Show processes not attached to a terminal.
+  - Example: `ps -a` (Show all running processes).
+- **`-f` (Full)**: Show a full-format listing of processes.
+  - Example: `ps -f` (Display processes with full information).
+- **`-o` (Output Format)**: Specify the output format for process information.
+  - Example: `ps -o pid,user,command` (Show process ID, user, and command).
