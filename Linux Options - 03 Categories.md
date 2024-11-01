@@ -111,3 +111,15 @@ List of **Linux Options Categoriy Wise** :
   - Example: `userdel -r username` (Remove a user and delete their home directory).
 - **`-G` (Add to Group)**: Add a user to specific groups.
   - Example: `usermod -G groupname username` (Add a user to a group).
+
+---
+
+### **Package Management (APT)**
+- **`-y` (Assume Yes)**: Assume "yes" to prompts during installation.
+  - Example: `apt-get install -y package` (Install a package without prompts).
+- **`-s` (Simulate)**: Simulate the action without making any changes.
+  - Example: `apt-get upgrade -s` (Simulate an upgrade without applying changes).
+- **`-q` (Quiet Mode)**: Run the command in quiet mode.
+  - Example: `apt-get -q update` (Update package lists without output).
+- **`-f` (Fix Broken Packages)**: Fix broken package dependencies.
+  - Example: `apt-get install -f` (Fix broken packages).
