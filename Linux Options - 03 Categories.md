@@ -123,3 +123,13 @@ List of **Linux Options Categoriy Wise** :
   - Example: `apt-get -q update` (Update package lists without output).
 - **`-f` (Fix Broken Packages)**: Fix broken package dependencies.
   - Example: `apt-get install -f` (Fix broken packages).
+
+---
+
+### **Miscellaneous Options**
+- **`--help`**: Display help information for any command.
+  - Example: `cp --help` (Show help for the `cp` command).
+- **`-q` (Quiet)**: Suppress output for certain commands.
+  - Example: `grep -q pattern file.txt` (Search for a pattern quietly).
+
+---
