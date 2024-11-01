@@ -91,3 +91,13 @@ List of **Linux Options Categoriy Wise** :
   - Example: `chown -v user:group file.txt` (Change ownership and show details).
 - **`-c` (Report Changes)**: Report only when changes are made.
   - Example: `chmod -c 644 file.txt` (Show changes only when the file's permissions are modified).
+
+---
+
+### **System Management**
+- **`-h` (Help)**: Show help information for a command.
+  - Example: `sudo -h` (Display help for the `sudo` command).
+- **`-r` (Reboot)**: Reboot the system.
+  - Example: `shutdown -r now` (Reboot the system immediately).
+- **`-h now` (Shutdown)**: Shut down the system immediately.
+  - Example: `shutdown -h now` (Shut down the system).
