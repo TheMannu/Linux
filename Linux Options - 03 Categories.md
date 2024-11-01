@@ -81,3 +81,13 @@ List of **Linux Options Categoriy Wise** :
   - Example: `tar -jcvf archive.tar.bz2 dir/` (Create a bzip2-compressed archive).
 - **`-t` (List Contents)**: List contents of an archive.
   - Example: `tar -tvf archive.tar` (List the contents of a tar archive).
+
+---
+
+### **Permissions and Ownership**
+- **`-R` (Recursive)**: Apply changes recursively to directories and subdirectories.
+  - Example: `chmod -R 755 dir/` (Recursively change file permissions).
+- **`-v` (Verbose)**: Verbosely show the changes made.
+  - Example: `chown -v user:group file.txt` (Change ownership and show details).
+- **`-c` (Report Changes)**: Report only when changes are made.
+  - Example: `chmod -c 644 file.txt` (Show changes only when the file's permissions are modified).
