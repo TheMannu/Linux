@@ -68,3 +68,16 @@ List of **Linux Options Categoriy Wise** :
   - Example: `netstat -n` (Display numeric IP addresses).
 - **`-l` (Listening Ports)**: Show listening ports.
   - Example: `netstat -l` (Display listening ports).
+---
+
+### **Archive and Compression**
+- **`-c` (Create)**: Create an archive.
+  - Example: `tar -cvf archive.tar dir/` (Create a tar archive).
+- **`-x` (Extract)**: Extract files from an archive.
+  - Example: `tar -xvf archive.tar` (Extract files from a tar archive).
+- **`-z` (Gzip Compression)**: Use gzip compression.
+  - Example: `tar -zcvf archive.tar.gz dir/` (Create a gzip-compressed archive).
+- **`-j` (Bzip2 Compression)**: Use bzip2 compression.
+  - Example: `tar -jcvf archive.tar.bz2 dir/` (Create a bzip2-compressed archive).
+- **`-t` (List Contents)**: List contents of an archive.
+  - Example: `tar -tvf archive.tar` (List the contents of a tar archive).
