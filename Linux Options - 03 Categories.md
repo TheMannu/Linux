@@ -101,3 +101,13 @@ List of **Linux Options Categoriy Wise** :
   - Example: `shutdown -r now` (Reboot the system immediately).
 - **`-h now` (Shutdown)**: Shut down the system immediately.
   - Example: `shutdown -h now` (Shut down the system).
+
+---
+
+### **User Management**
+- **`-m` (Create Home Directory)**: Create the home directory for a new user.
+  - Example: `useradd -m username` (Add a user and create a home directory).
+- **`-r` (Remove Home Directory)**: Remove the home directory and mail for a user.
+  - Example: `userdel -r username` (Remove a user and delete their home directory).
+- **`-G` (Add to Group)**: Add a user to specific groups.
+  - Example: `usermod -G groupname username` (Add a user to a group).
