@@ -292,6 +292,18 @@
   - **Example**: `apt-cache search nginx`
   - **Description**: Searches for packages in the repository.
 
+## **11. System Management **
+
+1. **`sudo systemctl reboot`**: Initiates an immediate reboot using `systemctl`, the system and service manager for Linux.
+
+2. **`sudo reboot now`**: Another way to restart the system immediately. `reboot` is often a shortcut to systemd’s `reboot` command, which restarts the computer.
+
+3. **`sudo shutdown -r`**: Schedules a restart; `-r` stands for "reboot." Without additional options, it may prompt for a time or default to a scheduled shutdown.
+
+4. **`uptime`**: Displays how long the system has been running, the number of users, and the load averages.
+
+5. **`uptime --pretty`**: Shows uptime in a more readable, “pretty” format, like "up 1 hour, 30 minutes."
+
 ---
 
 ## **Summary of Key Commands**
